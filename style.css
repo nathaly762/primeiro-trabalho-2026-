@@ -1,5 +1,5 @@
 nav {
-    background-color: #1d0404; 
+    background-color: #0f0101; 
     padding: 10px;
 }
 
@@ -23,4 +23,24 @@ nav a {
 
 nav a:hover {
     color: #b41010; /* Cor que muda quando passa o mouse */
+}
+/* Reseta margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-receitas {
+    padding: 40px 20px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.container-receitas h1 {
+    font-size: 6rem; 
+    color: #2e1805; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
 }

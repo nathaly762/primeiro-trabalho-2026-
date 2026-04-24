@@ -1,12 +1,12 @@
 nav {
-    background-color: #0f0101; 
+    background-color: #4d0909; 
     padding: 10px;
 }
 
 nav ul {
     list-style-type: none; 
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 7;
     display: flex; 
     justify-content: center;
 }
@@ -16,30 +16,30 @@ nav li {
 }
 
 nav a {
-    color: rgb(0, 0, 0); 
+    color: rgb(34, 3, 3); 
     text-decoration: none
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #b41010; /* Cor que muda quando passa o mouse */
+    color: #b41010; 
 }
-/* Reseta margens padrão do navegador */
+nav
 * {
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 7;
     box-sizing: border-box;
 }
 
 .container-receitas {
     padding: 40px 20px; 
-    text-align: center; 
-    margin-top: 20px; 
+    text-align: direita; 
+    margin-top: 50px
 }
 
 .container-receitas h1 {
-    font-size: 6rem; 
-    color: #2e1805; 
+    font-size: 8rem;
+    color: #412003; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase; 
     letter-spacing: 2px; 
